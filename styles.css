@@ -11,6 +11,15 @@ h3, header {
 }
 
 @media screen and (min-width: 500px) {
+  #aanwijzingen_tabel {
+    display: normal;
+  }
+}
+@media screen and (max-width: 499px) {
+  #aanwijzingen_tabel {
+    display: none;
+  }
+
   table {
     width: 100%;
   }
@@ -28,11 +37,6 @@ h3, header {
 
   th {
     color: #4287f5;
-  }
-}
-@media screen and (max-width: 499px) {
-  #aanwijzingen_tabel {
-    display: none;
   }
 }
 #foto_start {
