@@ -1,0 +1,72 @@
+$color_primary: #4287f5;
+$color_secondary: lightgrey;
+$color_tertiary: #f7f7f7;
+
+header{
+	text-align: center;
+	margin: 30px;
+	color: $color_primary;
+}
+
+h3{
+	color: $color_primary;
+}
+
+#foto_start {
+	border-radius: 8px;
+	border: solid;
+	width: 50%;
+}
+
+.foto_aanwijzing {
+	border-radius: 8px;
+	border: solid;
+	width: 25%;
+}
+
+.aanwijzing_box {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.aanwijzing_button {
+ 	background-color: $color_tertiary;
+ 	border: none;
+ 	border-radius: 8px;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    color: $color_primary;
+}
+
+.aanwijzing_button:hover{
+	background-color: $color_primary;
+	color: white;
+}
+
+.pagina {
+	background-color: $color_tertiary;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.navigation_bar {
+	background-color: $color_secondary;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.footer_bar {
+	background-color: $color_secondary;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    color: $color_primary;
+    text-align: center;
+}
+
