@@ -1,5 +1,11 @@
 header{
 	text-align: center;
+	margin: 30px;
+	color: #4287f5;
+}
+
+h3{
+	color: #4287f5;
 }
 
 .aanwijzing_box {
@@ -16,6 +22,12 @@ header{
     padding: 20px;
     width: 200px;
     text-align: center;
+    color: #4287f5;
+}
+
+.aanwijzing_button:hover{
+	background-color: #4287f5;
+	color: white;
 }
 
 .pagina {
@@ -23,10 +35,12 @@ header{
     font-size: 20px;
     margin: 20px;
     padding: 20px;
+    border-radius: 8px;
 }
 
 .navigation_bar {
 	background-color: lightgray;
     margin: 20px;
     padding: 20px;
+    border-radius: 8px;
 }
