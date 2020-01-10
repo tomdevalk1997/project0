@@ -53,15 +53,8 @@ h3{
 }
 
 .volgende_aanwijzing {
- 	background-color: $color_tertiary;
- 	border: none;
- 	border-radius: 8px;
-    font-size: 20px;
-    margin: 20px;
-    padding: 20px;
-    width: 50%;
-    text-align: center;
-    color: $color_primary;
+	@extend .aanwijzing_button;
+    width: 500px;
 }
 
 .volgende_aanwijzing:hover{
@@ -85,10 +78,7 @@ h3{
 }
 
 .footer_bar {
-	background-color: $color_secondary;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 8px;
+	@extend .navigation_bar;
     color: $color_primary;
     text-align: center;
 }
