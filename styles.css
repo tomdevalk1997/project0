@@ -1,11 +1,32 @@
 header{
 	text-align: center;
 }
-nav{
-	text-align: center;
-	color: white;
-	height: 60px;
+
+.aanwijzing_box {
+	display: flex;
+	flex-wrap: wrap;
 }
-.contents{
-	
+
+.aanwijzing_button {
+ 	background-color: #f7f7f7;
+ 	border: none;
+ 	border-radius: 8px;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.pagina {
+	background-color: #f7f7f7;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.navigation_bar {
+	background-color: lightgray;
+    margin: 20px;
+    padding: 20px;
 }
