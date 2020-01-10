@@ -1,78 +1,69 @@
-header{
-	text-align: center;
-	margin: 30px;
-	color: #4287f5;
+header {
+  text-align: center;
+  margin: 30px;
+  color: #4287f5;
 }
 
-h3{
-	color: #4287f5;
+h3 {
+  color: #4287f5;
 }
 
 #foto_start {
-	border-radius: 8px;
-	border: solid;
-	width: 50%;
+  border-radius: 8px;
+  border: solid;
+  width: 50%;
+}
+
+.foto_aanwijzing {
+  border-radius: 8px;
+  border: solid;
+  width: 25%;
 }
 
 .aanwijzing_box {
-	display: flex;
-	flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .aanwijzing_button {
- 	background-color: #f7f7f7;
- 	border: none;
- 	border-radius: 8px;
-    font-size: 20px;
-    margin: 20px;
-    padding: 20px;
-    width: 200px;
-    text-align: center;
-    color: #4287f5;
+  background-color: #f7f7f7;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  color: #4287f5;
 }
 
-.aanwijzing_button:hover{
-	background-color: #4287f5;
-	color: white;
-}
-
-.volgende_aanwijzing{
-	background-color: #f7f7f7;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 8px;
-    border: none;
-    font-size: 20px;
-    text-align: center;
-    color: #4287f5;
-}
-
-.volgende_aanwijzing:hover{
-	background-color: #4287f5;
-	color: white;
+.aanwijzing_button:hover {
+  background-color: #4287f5;
+  color: white;
 }
 
 .pagina {
-	background-color: #f7f7f7;
-    font-size: 20px;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 8px;
+  background-color: #f7f7f7;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
 }
 
 .navigation_bar {
-	background-color: lightgray;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 8px;
+  background-color: lightgrey;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
 }
 
 .footer_bar {
-	background-color: lightgray;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 8px;
-    color: #4287f5;
-    text-align: center;
+  background-color: lightgrey;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  color: #4287f5;
+  text-align: center;
 }
 
+/*# sourceMappingURL=styles.css.map */
