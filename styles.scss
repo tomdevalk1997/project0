@@ -46,6 +46,23 @@ h3{
 	color: white;
 }
 
+.volgende_aanwijzing {
+ 	background-color: $color_tertiary;
+ 	border: none;
+ 	border-radius: 8px;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+    color: $color_primary;
+}
+
+.volgende_aanwijzing:hover{
+	background-color: $color_primary;
+	color: white;
+}
+
 .pagina {
 	background-color: $color_tertiary;
     font-size: 20px;
