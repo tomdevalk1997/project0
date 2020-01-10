@@ -1,23 +1,27 @@
 header {
   text-align: center;
   margin: 30px;
+}
+
+h3, header {
   color: #4287f5;
 }
 
-h3 {
-  color: #4287f5;
+tr, td {
+  text-align: center;
+  background: #f7f7f7;
 }
 
 #foto_start {
   border-radius: 8px;
   border: solid;
-  width: 75%;
+  width: 100%;
 }
 
 .foto {
   border-radius: 8px;
   border: solid;
-  width: 75%;
+  width: 100%;
 }
 
 .foto_aanwijzing {
