@@ -10,7 +10,7 @@ h3, header {
   color: #4287f5;
 }
 
-@media (min-width: 500px) {
+@media screen and (min-width: 500px) {
   table {
     width: 100%;
   }
@@ -28,6 +28,11 @@ h3, header {
 
   th {
     color: #4287f5;
+  }
+}
+@media screen and (max-width: 499px) {
+  table {
+    display: none;
   }
 }
 #foto_start {

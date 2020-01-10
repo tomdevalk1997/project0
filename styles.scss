@@ -14,7 +14,7 @@ h3, header{
 	color: $color_primary;
 }
 
-@media (min-width: 500px){
+@media screen and (min-width: 500px){
 	table {
 		width: 100%;
 	}
@@ -34,8 +34,11 @@ h3, header{
 		color: $color_primary;
 	}
 }
-@media (max-width: 499px){
-	
+
+@media screen and (max-width: 499px){
+	table {
+		display: none;
+	}
 }
 
 
