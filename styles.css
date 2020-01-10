@@ -73,7 +73,7 @@ h3 {
   border-radius: 8px;
 }
 
-.navigation_bar {
+.navigation_bar, .footer_bar {
   background-color: lightgrey;
   margin: 20px;
   padding: 20px;
@@ -81,10 +81,6 @@ h3 {
 }
 
 .footer_bar {
-  background-color: lightgrey;
-  margin: 20px;
-  padding: 20px;
-  border-radius: 8px;
   color: #4287f5;
   text-align: center;
 }
