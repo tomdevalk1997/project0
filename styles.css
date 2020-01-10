@@ -31,7 +31,7 @@ h3 {
   flex-wrap: wrap;
 }
 
-.aanwijzing_button {
+.aanwijzing_button, .volgende_aanwijzing {
   background-color: #f7f7f7;
   border: none;
   border-radius: 8px;
@@ -43,21 +43,13 @@ h3 {
   color: #4287f5;
 }
 
-.aanwijzing_button:hover {
+.aanwijzing_button:hover, .volgende_aanwijzing:hover {
   background-color: #4287f5;
   color: white;
 }
 
 .volgende_aanwijzing {
-  background-color: #f7f7f7;
-  border: none;
-  border-radius: 8px;
-  font-size: 20px;
-  margin: 20px;
-  padding: 20px;
   width: 500px;
-  text-align: center;
-  color: #4287f5;
 }
 
 .volgende_aanwijzing:hover {
