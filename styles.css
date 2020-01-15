@@ -31,12 +31,16 @@ th {
 
 @media screen and (min-width: 500px) {
   #aanwijzingen_tabel {
-    display: block;
+    visibilty: normal;
   }
 }
 @media screen and (max-width: 499px) {
   #aanwijzingen_tabel {
-    display: none;
+    visibility: hidden;
+  }
+
+  #box_aanwijzingen_tabel {
+    visibility: hidden;
   }
 }
 #foto_start {
